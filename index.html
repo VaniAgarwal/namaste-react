@@ -12,7 +12,7 @@
 <body>
     <h1>Hello Top of root</h1> <!--this will not be replaced because we have not mention root.render(as this tag)-->
     <div id="root">
-        <h1>Vani is here</h1> <!--this will be replaced by the react when it is loaded -->
+        <h1>Not Rendered</h1> <!--this will be replaced by the react when it is loaded -->
         
     </div>
 
@@ -20,14 +20,14 @@
     <!--by these links react has been posted in our project i.e. we can use react in our project from this link-->
     <!--Core React Framework-->
 
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js">
+    <!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js">
     </script>
 
     <!--React Dom useful for modifying for DOM--><!--Bridge to connect to the DOM-->
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js">
-    </script>
+    <!-- <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js">
+    </script> --> 
 
-    <script src="./App.js">
+    <script type="module" src="./App.js">
 </script>
 
 </body>
